@@ -29,9 +29,11 @@ const routes = [
 ];
 
 const router = new VueRouter({
+    // 使用history路由，不使用hash路由
     mode: 'history',
     base: process.env.BASE_URL,
     routes,
 });
 
+// 导出路由
 export default router;
