@@ -1,4 +1,5 @@
 <template>
+  <!-- 顶部组件 -->
   <div id="topBar">
     <div class="container">
       <div class="topbar-nav">

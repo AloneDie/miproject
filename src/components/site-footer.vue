@@ -1,4 +1,5 @@
 <template>
+  <!-- 底部组件（联系方式） -->
   <div id="site-footer">
     <div class="container">
       <div class="services">

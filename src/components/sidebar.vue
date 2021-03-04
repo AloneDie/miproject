@@ -1,4 +1,5 @@
 <template>
+  <!-- 侧边栏全局组件 -->
   <div id="sidebar">
     <ul>
       <li class="phoneApp">

@@ -1,4 +1,5 @@
 <template>
+  <!-- 底部信息全局组件 -->
   <div id="footerInfo">
     <div class="container">
       <div class="logo">小米官网</div>
