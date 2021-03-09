@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import login from '../pages/login.vue';
-import index from '../views/index.vue';
+import login from '../views/login.vue';
 
 Vue.use(VueRouter);
 
@@ -10,12 +9,13 @@ const routes = [
         path: '/',
         name: 'login',
         component: login,
+        redirect: '/login',
     },
-    {
-        path: '/index',
-        name: 'index',
-        component: index,
-        /**
+    // {
+    // path: '/index',
+    // name: 'index',
+    // component: index,
+    /**
          * 二级分类使用childen
          *childen: [
             {
@@ -25,7 +25,7 @@ const routes = [
             },
         ],
          */
-    },
+    // },
 ];
 
 const router = new VueRouter({

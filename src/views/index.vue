@@ -1,5 +1,7 @@
 <template>
-  <div id="index"></div>
+  <div id="index">
+    <topBar></topBar>
+  </div>
 </template>
 
 <script>

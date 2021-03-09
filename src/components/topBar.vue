@@ -47,9 +47,9 @@
         </a>
       </div>
       <div class="btn-login">
-        <a rel="nofollow" href="/login">登录</a>
+        <a rel="nofollow" href="/login" target="_blank">登录</a>
         <span>|</span>
-        <a rel="nofollow" href="/registered" target="_blank">注册</a>
+        <a rel="nofollow" href="/login" target="_blank">注册</a>
         <span>|</span>
         <a rel="nofollow" href="/msg" target="_blank">消息通知</a>
       </div>
