@@ -3,7 +3,7 @@
   <div id="topBar">
     <div class="container">
       <div class="topbar-nav">
-        <a rel="nofollow" href="//www.mi.com/index.html">小米商城</a>
+        <a rel="nofollow" href="/index">小米商城</a>
         <span class="sep">|</span>
         <a rel="nofollow" href="//www.miui.com/" target="_blank">MIUI</a>
         <span class="sep">|</span>
@@ -47,11 +47,9 @@
         </a>
       </div>
       <div class="btn-login">
-        <a rel="nofollow" href="/login" target="_blank">登录</a>
-        <span>|</span>
-        <a rel="nofollow" href="/login" target="_blank">注册</a>
-        <span>|</span>
-        <a rel="nofollow" href="/msg" target="_blank">消息通知</a>
+        <!-- <a href="javascript:;" v-if="username">{{username}}</a> -->
+        <a href="/login">登录</a>
+        <a href="\index">退出</a>
       </div>
     </div>
   </div>
@@ -63,7 +61,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang='scss'>
 /* @import url(//at.alicdn.com/t/font_2392189_z7dhp16xqm.css); */
 
 #topBar {
@@ -130,6 +128,9 @@ export default {
 }
 #topBar .btn-login a {
   padding: 0 5px;
+  &:hover {
+    color: #fff;
+  }
 }
 #topBar .btn-login a:last-child {
   padding: 0 10px;
